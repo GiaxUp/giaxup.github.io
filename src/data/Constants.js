@@ -11,38 +11,44 @@ export const Bio = {
   facebook: "https://www.facebook.com/GiaxUp",
 };
 
-// To update, later when needed:
 export const skills = [
   {
     title: "Frontend",
     skills: [
       {
-        name: "React Js",
-        image:
-          "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
-      },
-      {
-        name: "Redux",
-        image:
-          "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
-      },
-      {
         name: "HTML",
-        image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
       },
       {
         name: "CSS",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
       },
       {
         name: "JavaScript",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+      },
+      {
+        name: "React",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+      },
+      {
+        name: "Redux",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
       },
       {
         name: "Bootstrap",
-        image: "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+      },
+      {
+        name: "SASS",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+      },
+      {
+        name: "Typescript",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
       },
     ],
   },
@@ -50,46 +56,25 @@ export const skills = [
     title: "Backend",
     skills: [
       {
-        name: "Node Js",
-        image: "https://nodejs.org/static/images/logo.svg",
+        name: "Java",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+      },
+      {
+        name: "Spring",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg",
       },
       {
         name: "MySQL",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg",
+      },
+      {
+        name: "NodeJS",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+      },
+      {
+        name: "PostgreSQL",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
-      },
-      {
-        name: "Postgresql",
-        image: "https://www.postgresql.org/media/img/about/press/elephant.png",
-      },
-      {
-        name: "MongoDB",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
-      },
-    ],
-  },
-  {
-    title: "Others",
-    skills: [
-      {
-        name: "Git",
-        image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
-      },
-      {
-        name: "GitHub",
-        image: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-      },
-      {
-        name: "VS Code",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-      },
-      {
-        name: "Postman",
-        image:
-          "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
       },
     ],
   },
@@ -97,11 +82,11 @@ export const skills = [
 
 export const experiences = [
   {
-    id: 0,
-    img: "https://media.licdn.com/dms/image/D560BAQFDUKPSU8P0Lw/company-logo_200_200/0/1687947132305?e=1698278400&v=beta&t=cBF3SdszRLspmyvV-rHa1y4tdj_hjjivH7Xy0Z7kOD8",
-    role: "Fullstack WebDev Student",
+    id: 1,
+    img: "https://scontent-mxp2-1.xx.fbcdn.net/v/t39.30808-6/275606769_1061998424349206_8780248274051640820_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=2AbaGjCyIyoAX9KUK53&_nc_oc=AQl0ONvdXa2L6-GJBvAANBqzNSRXn2ZlTIrrTkzhnYUFUhur5kUBkySoAtXkpoPuEI0ljPzX3L6UlLYz14emdHc_&_nc_ht=scontent-mxp2-1.xx&oh=00_AfD0L8arRpRO7sEgoD2VeEh9MfEvITmL477hvHZ7cThmww&oe=64E276D7",
+    role: "Student - Fullstack WebDev",
     company: "EPICODE Italia",
-    date: "Nov 2022 - June 2023",
+    date: "Nov 2022 - Jun 2023",
     desc: "Full-time Web Developer Fullstack course.",
     skills: [
       "Bootstrap",
@@ -119,48 +104,79 @@ export const experiences = [
     ],
     doc: "https://benchmark.epicode.com/credentials/64872a79caff90a79658630f",
   },
-];
-
-export const education = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/C560BAQE4UC9Z_k3c7A/company-logo_200_200/0/1579422507409?e=1692230400&v=beta&t=HJssPsrwwkAJAsvFiVIYPdM8GzUuuSK5YlATKgLx3Bc",
-    school: "IIS Amedeo Avogadro, Abbadia San Salvatore (SI)",
+    img: "https://static.vecteezy.com/system/resources/previews/008/040/410/original/school-logo-design-template-free-vector.jpg",
+    role: "High School",
+    company: "IIS Amedeo Avogadro (SI)",
     date: "Sep 2010 - Jun 2015",
-    grade: "65/100",
-    desc: "Electronics and electrical engineering, some introduction to coding with C++ and Assembly.",
-    degree:
-      "Diploma Istituto Tecnico e Professionale, Ingegneria elettrica, elettronica e delle comunicazioni.",
+    desc: "Electronics and electrical engineering. First approach to coding thanks to C++ and Assebly. Graduated with 65/100.",
   },
 ];
 
 export const projects = [
   {
     id: 0,
-    title: "Capstone - Cinema Ticket Management Website",
-    date: "May 2023 - June 2023",
+    title: "Cinema Ticket Management",
+    date: "May 2023 - Jun 2023",
     description:
-      "Developed a full-stack web application that allows registered users to choose their seats and save tickets on their profile.",
+      "For my final Capstone Project at Epicode I developed a full-stack web application that allows registered users to choose their seats and buy/save tickets on their profile.",
     image: "https://i.ibb.co/rpNY7Qk/Rocket.png",
     tags: ["React", "Redux", "SpringBoot", "JWT", "postgreSQL", "Axios"],
     category: "web app",
     github: "https://github.com/GiaxUp/Capstone",
-    member: [
-      {
-        name: "Giacomo Della Peruta",
-        img: "https://avatars.githubusercontent.com/u/40038797?v=4",
-        linkedin: "https://www.linkedin.com/in/giacomo-della-peruta/",
-        github: "https://github.com/GiaxUp/",
-      },
-    ],
   },
-];
-
-//Placeholder stuff to change:
-export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
+  {
+    id: 1,
+    title: "Threads Clone",
+    date: "Jul 2023 - Aug 2023",
+    description:
+      "Decided to join the hype for the new Meta social network by creating a look-a-like clone of it!",
+    image: "https://i.ibb.co/zZQ7XgM/sample.png",
+    tags: ["React", "Redux", "JSON Server", "Moments"],
+    category: "web app",
+    github: "https://github.com/GiaxUp/threads-clone",
+  },
+  {
+    id: 2,
+    title: "LinkedIn Clone",
+    date: "Mar 2023 - Mar 2023",
+    description:
+      "Made by Giacomo Della Peruta, Palma Iacobelli, Carlos Sarmiento, Michela Kalowski e Feliciano Carlomagno at the end of the Unit 3 Week 4 and 5.",
+    image: "https://i.ibb.co/HpncTV7/1.png",
+    tags: ["React", "Redux", "Bootstrap", "API"],
+    category: "web app",
+    github: "https://github.com/GiaxUp/R5L5",
+  },
+  {
+    id: 3,
+    title: "Netflix Clone",
+    date: "Feb 2023 - Feb 2023",
+    description: "Refactored an old Netflix project with React.",
+    image: "https://i.ibb.co/pz8myVG/n1.png",
+    tags: ["React", "Bootstrap", "API"],
+    category: "web app",
+    github: "https://github.com/GiaxUp/R1L5",
+  },
+  {
+    id: 4,
+    title: "Spotify Clone",
+    date: "Feb 2023 - Feb 2023",
+    description:
+      "Refactored an old Spotify project with React and Redux. Added a working music player!",
+    image: "https://i.ibb.co/dbThnBZ/home.png",
+    tags: ["React", "Redux", "Bootstrap", "API"],
+    category: "web app",
+    github: "https://github.com/GiaxUp/R3L5",
+  },
+  {
+    id: 5,
+    title: "Weather App",
+    date: "Feb 2023 - Feb 2023",
+    description: "Created an application to check the weather around the world!",
+    image: "https://i.ibb.co/C6zGHyd/w2.png",
+    tags: ["React", "Bootstrap", "API"],
+    category: "web app",
+    github: "https://github.com/GiaxUp/R2L5",
+  },
 ];
