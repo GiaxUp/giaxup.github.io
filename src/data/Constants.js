@@ -165,7 +165,7 @@ export const projects = [
     description:
       "Refactored an old Spotify project with React and Redux. Added a working music player!",
     image: "https://i.ibb.co/dbThnBZ/home.png",
-    tags: ["React", "Redux", "Bootstrap", "API"],
+    tags: ["React", "Bootstrap", "API"],
     category: "web app",
     github: "https://github.com/GiaxUp/R3L5",
   },

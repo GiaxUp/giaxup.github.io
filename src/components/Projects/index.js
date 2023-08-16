@@ -21,7 +21,7 @@ const Projects = ({ openModal, setOpenModal }) => {
         <Title>Projects</Title>
         <Desc>
           I have worked on a wide range of projects during my Epicode course and after. Here are
-          some of my projects.
+          some of my favourites.
         </Desc>
         <ToggleButtonGroup>
           {toggle === "all" ? (
@@ -30,7 +30,7 @@ const Projects = ({ openModal, setOpenModal }) => {
             </ToggleButton>
           ) : (
             <ToggleButton value="all" onClick={() => setToggle("all")}>
-              All
+              ALL
             </ToggleButton>
           )}
           <Divider />
