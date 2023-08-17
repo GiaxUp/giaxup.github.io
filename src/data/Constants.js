@@ -172,7 +172,7 @@ export const projects = [
   {
     id: 5,
     title: "Weather App",
-    date: "Feb 2023 - Feb 2023",
+    date: "Jan 2023 - Jan 2023",
     description: "Created an application to check the weather around the world!",
     image: "https://i.ibb.co/C6zGHyd/w2.png",
     tags: ["React", "Bootstrap", "API"],
