@@ -163,7 +163,7 @@ export const projects = [
     title: "Spotify Clone",
     date: "Feb 2023 - Feb 2023",
     description:
-      "Refactored an old Spotify project with React and Redux. Added a working music player!",
+      "Refactored an old Spotify project with React and Redux. Added a working music player too!",
     image: "https://i.ibb.co/dbThnBZ/home.png",
     tags: ["React", "Bootstrap", "API"],
     category: "web app",
