@@ -142,7 +142,7 @@ export const projects = [
     title: "LinkedIn Clone",
     date: "Mar 2023 - Mar 2023",
     description:
-      "Made by Giacomo Della Peruta, Palma Iacobelli, Carlos Sarmiento, Michela Kalowski e Feliciano Carlomagno at the end of the Unit 3 Week 4 and 5.",
+      "Made by Giacomo Della Peruta, Palma Iacobelli, Carlos Sarmiento and Michela Kalowski at the end of the Unit 3 Week 4 and 5.",
     image: "https://i.ibb.co/HpncTV7/1.png",
     tags: ["React", "Redux", "Bootstrap", "API"],
     category: "web app",
