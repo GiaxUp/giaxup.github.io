@@ -83,11 +83,11 @@ export const skills = [
 export const experiences = [
   {
     id: 1,
-    img: "https://scontent-mxp2-1.xx.fbcdn.net/v/t39.30808-6/275606769_1061998424349206_8780248274051640820_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=2AbaGjCyIyoAX9KUK53&_nc_oc=AQl0ONvdXa2L6-GJBvAANBqzNSRXn2ZlTIrrTkzhnYUFUhur5kUBkySoAtXkpoPuEI0ljPzX3L6UlLYz14emdHc_&_nc_ht=scontent-mxp2-1.xx&oh=00_AfD0L8arRpRO7sEgoD2VeEh9MfEvITmL477hvHZ7cThmww&oe=64E276D7",
-    role: "Student - Fullstack WebDev",
+    img: "https://s3-eu-west-1.amazonaws.com/tpd/logos/62a6277627ee655c1226b624/0x0.png",
+    role: "Course Student",
     company: "EPICODE Italia",
     date: "Nov 2022 - Jun 2023",
-    desc: "Full-time Web Developer Fullstack course.",
+    desc: "Fullstack Web Developer course, more than 950 hours distribuited in 6 months.",
     skills: [
       "Bootstrap",
       "CSS",
@@ -125,6 +125,7 @@ export const projects = [
     tags: ["React", "Redux", "SpringBoot", "JWT", "postgreSQL", "Axios"],
     category: "web app",
     github: "https://github.com/GiaxUp/Capstone",
+    webapp: "https://www.youtube.com/watch?v=rV5nATfn-ko",
   },
   {
     id: 1,
@@ -140,7 +141,7 @@ export const projects = [
   {
     id: 2,
     title: "LinkedIn Clone",
-    date: "Mar 2023 - Mar 2023",
+    date: "Mar 2023",
     description:
       "Made by Giacomo Della Peruta, Palma Iacobelli, Carlos Sarmiento and Michela Kalowski at the end of the Unit 3 Week 4 and 5.",
     image: "https://i.ibb.co/HpncTV7/1.png",
@@ -151,7 +152,7 @@ export const projects = [
   {
     id: 3,
     title: "Netflix Clone",
-    date: "Feb 2023 - Feb 2023",
+    date: "Feb 2023",
     description: "Refactored an old Netflix project with React.",
     image: "https://i.ibb.co/pz8myVG/n1.png",
     tags: ["React", "Bootstrap", "API"],
@@ -161,7 +162,7 @@ export const projects = [
   {
     id: 4,
     title: "Spotify Clone",
-    date: "Feb 2023 - Feb 2023",
+    date: "Feb 2023",
     description:
       "Refactored an old Spotify project with React and Redux. Added a working music player too!",
     image: "https://i.ibb.co/dbThnBZ/home.png",
@@ -172,7 +173,7 @@ export const projects = [
   {
     id: 5,
     title: "Weather App",
-    date: "Jan 2023 - Jan 2023",
+    date: "Jan 2023",
     description: "Created an application to check the weather around the world!",
     image: "https://i.ibb.co/C6zGHyd/w2.png",
     tags: ["React", "Bootstrap", "API"],

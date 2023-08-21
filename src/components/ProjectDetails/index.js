@@ -233,8 +233,10 @@ const index = ({ openModal, setOpenModal }) => {
             <Button dull href={project?.github} target="new">
               View Code
             </Button>
-            <Button href={project?.webapp} target="new">
-              View Live App
+            <Button href={project?.webapp} target="_blank">
+              {project?.webapp?.startsWith("https://www.youtube.com/")
+                ? "Play Demo Video"
+                : "View Live App"}
             </Button>
           </ButtonGroup>
         </Wrapper>
