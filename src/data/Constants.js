@@ -133,7 +133,7 @@ export const projects = [
     date: "Jul 2023 - Aug 2023",
     description:
       "Decided to join the hype for the new Meta social network by creating a look-a-like clone of it!",
-    image: "https://i.ibb.co/zZQ7XgM/sample.png",
+    image: "https://i.ibb.co/Qr5kv3B/threads.png",
     tags: ["React", "Redux", "JSON Server", "Moments"],
     category: "web app",
     github: "https://github.com/GiaxUp/threads-clone",
@@ -143,17 +143,44 @@ export const projects = [
     title: "LinkedIn Clone",
     date: "Mar 2023",
     description:
-      "Made by Giacomo Della Peruta, Palma Iacobelli, Carlos Sarmiento and Michela Kalowski at the end of the Unit 3 Week 4 and 5.",
+      "During a Team Build Week we had to replicate LinkedIn using React. This is one of my first experiences wotking in a team and we had to cooperate and discuss to code togheter, fun experience!",
     image: "https://i.ibb.co/HpncTV7/1.png",
     tags: ["React", "Redux", "Bootstrap", "API"],
     category: "web app",
     github: "https://github.com/GiaxUp/R5L5",
+    member: [
+      {
+        name: "Giacomo Della Peruta",
+        img: "https://avatars.githubusercontent.com/u/40038797?v=4",
+        linkedin: "https://www.linkedin.com/in/giacomo-della-peruta/",
+        github: "https://github.com/giaxup/",
+      },
+      {
+        name: "Palma Iacobelli",
+        img: "https://i.ibb.co/bHrh4Fr/palma.png",
+        linkedin: "https://www.linkedin.com/in/palma-iacobelli-482521185",
+        github: "https://github.com/369-Palma",
+      },
+      {
+        name: "Carlos Sarmiento",
+        img: "https://i.ibb.co/6ZLxLCT/carlos.png",
+        linkedin: "https://www.linkedin.com/in/carlos-miguel-angel-sarmiento-baca-64409bb6",
+        github: "https://github.com/csarmientobaca",
+      },
+      {
+        name: "Michela Kalowski",
+        img: "https://i.ibb.co/hLFJLnx/michela.jpg",
+        linkedin: "https://www.linkedin.com/in/michela-kalowski-103130268/",
+        github: "https://github.com/MichelaKalowski",
+      },
+    ],
   },
   {
     id: 3,
     title: "Netflix Clone",
     date: "Feb 2023",
-    description: "Refactored an old Netflix project with React.",
+    description:
+      "Refactored an old Netflix project with React, fetched movies from a public API (omdbapi.com)",
     image: "https://i.ibb.co/pz8myVG/n1.png",
     tags: ["React", "Bootstrap", "API"],
     category: "web app",
@@ -164,7 +191,7 @@ export const projects = [
     title: "Spotify Clone",
     date: "Feb 2023",
     description:
-      "Refactored an old Spotify project with React and Redux. Added a working music player too!",
+      "Refactored an old Spotify project with React and Redux. To make the difference I added a working music player too that plays the first 30s of the selected song!",
     image: "https://i.ibb.co/dbThnBZ/home.png",
     tags: ["React", "Bootstrap", "API"],
     category: "web app",
@@ -174,7 +201,8 @@ export const projects = [
     id: 5,
     title: "Weather App",
     date: "Jan 2023",
-    description: "Created an application to check the weather around the world!",
+    description:
+      "Created a simple application to check the weather around the world thanks to the API by openweathermap!",
     image: "https://i.ibb.co/C6zGHyd/w2.png",
     tags: ["React", "Bootstrap", "API"],
     category: "web app",
