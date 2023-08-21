@@ -126,7 +126,14 @@ const ProjectCards = ({ project, setOpenModal }) => {
       <Image src={project.image} />
       <Tags>
         {project.tags?.map((tag, index) => (
-          <Tag>{tag}</Tag>
+          <Tag
+            key={index}
+            style={{
+              backgroundColor: tag === "Demo Video" || tag === "Live App" ? "#95deba" : null,
+              color: tag === "Demo Video" || tag === "Live App" ? "black" : null,
+            }}>
+            {tag}
+          </Tag>
         ))}
       </Tags>
       <Details>
@@ -135,8 +142,8 @@ const ProjectCards = ({ project, setOpenModal }) => {
         <Description>{project.description}</Description>
       </Details>
       <Members>
-        {project.member?.map((member) => (
-          <Avatar src={member.img} />
+        {project.member?.map((member, index) => (
+          <Avatar key={index} src={member.img} />
         ))}
       </Members>
       {/* <Button>View Project</Button> */}

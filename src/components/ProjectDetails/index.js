@@ -200,7 +200,14 @@ const index = ({ openModal, setOpenModal }) => {
           <Date>{project.date}</Date>
           <Tags>
             {project?.tags.map((tag) => (
-              <Tag>{tag}</Tag>
+              <Tag
+                key={index}
+                style={{
+                  backgroundColor: tag === "Demo Video" || tag === "Live App" ? "#95deba" : null,
+                  color: tag === "Demo Video" || tag === "Live App" ? "black" : null,
+                }}>
+                {tag}
+              </Tag>
             ))}
           </Tags>
           <Desc>{project?.description}</Desc>

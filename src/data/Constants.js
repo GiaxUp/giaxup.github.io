@@ -122,7 +122,7 @@ export const projects = [
     description:
       "For my final Capstone Project at Epicode I developed a full-stack web application that allows registered users to choose their seats and buy/save tickets on their profile.",
     image: "https://i.ibb.co/rpNY7Qk/Rocket.png",
-    tags: ["React", "Redux", "SpringBoot", "JWT", "postgreSQL", "Axios"],
+    tags: ["React", "Redux", "SpringBoot", "JWT", "postgreSQL", "Axios", "Demo Video"],
     category: "web app",
     github: "https://github.com/GiaxUp/Capstone",
     webapp: "https://www.youtube.com/watch?v=rV5nATfn-ko",
