@@ -19,10 +19,7 @@ const Projects = ({ openModal, setOpenModal }) => {
     <Container id="projects">
       <Wrapper>
         <Title>Projects</Title>
-        <Desc>
-          I have worked on a wide range of projects during my Epicode course and after. Here are
-          some of my favourites.
-        </Desc>
+        <Desc>I have worked on a wide range of projects, here are some of my favourites.</Desc>
         <ToggleButtonGroup>
           {toggle === "all" ? (
             <ToggleButton active value="all" onClick={() => setToggle("all")}>

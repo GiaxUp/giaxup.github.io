@@ -15,8 +15,7 @@ const Document = styled.a`
   cursor: pointer;
   font-size: 18px;
   font-weight: 600;
-  background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
-  box-shadow: 20px 20px 60px #1f2634, -20px -20px 60px #1f2634;
+  background: linear-gradient(225deg, hsla(0, 0%, 20%, 1) 0%, hsla(0, 0%, 30%, 1) 100%);
   &:hover {
     box-shadow: 20px 20px 60px #1f2634;
     filter: brightness(1);
