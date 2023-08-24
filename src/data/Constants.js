@@ -120,7 +120,7 @@ export const projects = [
     title: "Cinema Ticket Management",
     date: "May 2023 - Jun 2023",
     description:
-      "For my final Capstone Project at Epicode I developed a fullstack web application that allows registered users to choose their seats and buy/save tickets on their profile.",
+      "For my final Capstone Project at Epicode I developed a full-stack web application that allows registered users to choose their seats and buy/save tickets on their profile.",
     image: "https://i.ibb.co/rpNY7Qk/Rocket.png",
     tags: ["React", "Redux", "SpringBoot", "JWT", "postgreSQL", "Axios", "Demo Video"],
     category: "web app",
