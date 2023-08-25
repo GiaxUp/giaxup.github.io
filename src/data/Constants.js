@@ -134,9 +134,10 @@ export const projects = [
     description:
       "Decided to join the hype for the new Meta social network by creating a look-a-like clone of it!",
     image: "https://i.ibb.co/Qr5kv3B/threads.png",
-    tags: ["React", "Redux", "JSON Server", "Moments"],
+    tags: ["React", "Redux", "JSON Server", "Moments", "Demo Video"],
     category: "web app",
     github: "https://github.com/GiaxUp/threads-clone",
+    webapp: "https://www.youtube.com/watch?v=ZUF8Ba7Qhys",
   },
   {
     id: 2,
