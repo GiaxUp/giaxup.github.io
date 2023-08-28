@@ -9,6 +9,7 @@ export const Bio = {
   twitter: "https://twitter.com/GiaxUp",
   insta: "https://www.instagram.com/giacs/",
   facebook: "https://www.facebook.com/GiaxUp",
+  telegram: "https://t.me/Giacs",
 };
 
 export const skills = [

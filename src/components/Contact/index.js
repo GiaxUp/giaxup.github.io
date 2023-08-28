@@ -3,6 +3,12 @@ import styled from "styled-components";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { Snackbar } from "@mui/material";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import TelegramIcon from "@mui/icons-material/Telegram";
+import { Bio } from "../../data/constants";
 
 const Container = styled.div`
   display: flex;
@@ -125,11 +131,28 @@ const ContactButton = styled.input`
   color: ${({ theme }) => theme.text_primary};
   font-size: 18px;
   font-weight: 600;
+  cursor: pointer;
+`;
+
+const SocialMediaIcons = styled.div`
+  display: flex;
+  margin-top: 1rem;
+`;
+
+const SocialMediaIcon = styled.a`
+  display: inline-block;
+  margin: 0 1rem;
+  font-size: 1.5rem;
+  color: ${({ theme }) => theme.text_primary};
+  transition: color 0.2s ease-in-out;
+  &:hover {
+    color: ${({ theme }) => theme.primary};
+  }
 `;
 
 const Contact = () => {
-  //hooks
-  const [open, setOpen] = React.useState(false);
+  const [openSnackbar, setOpenSnackbar] = React.useState(false);
+  const [isEmailSent, setIsEmailSent] = React.useState(false);
   const form = useRef();
 
   const handleSubmit = (e) => {
@@ -137,7 +160,8 @@ const Contact = () => {
     emailjs.sendForm("service_02r8e89", "template_dpk97ar", form.current, "UbY-e4Db0EozWH36x").then(
       (result) => {
         console.log(result);
-        setOpen(true);
+        setIsEmailSent(true); // Set the state to indicate successful email send
+        setOpenSnackbar(true); // Open the Snackbar
         form.current.reset();
       },
       (error) => {
@@ -150,21 +174,43 @@ const Contact = () => {
     <Container>
       <Wrapper>
         <Title>Contact</Title>
-        <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
+        <Desc>
+          Feel free to reach out to me for any questions or opportunities! Here's my socials:
+        </Desc>
+        <SocialMediaIcons>
+          <SocialMediaIcon href={Bio.facebook} target="display">
+            <FacebookIcon />
+          </SocialMediaIcon>
+          <SocialMediaIcon href={Bio.telegram} target="display">
+            <TelegramIcon />
+          </SocialMediaIcon>
+          <SocialMediaIcon href={Bio.twitter} target="display">
+            <TwitterIcon />
+          </SocialMediaIcon>
+          <SocialMediaIcon href={Bio.linkedin} target="display">
+            <LinkedInIcon />
+          </SocialMediaIcon>
+          <SocialMediaIcon href={Bio.insta} target="display">
+            <InstagramIcon />
+          </SocialMediaIcon>
+        </SocialMediaIcons>
         <ContactForm ref={form} onSubmit={handleSubmit}>
-          <ContactTitle>Send email from here:</ContactTitle>
+          <ContactTitle>... or send me an email from here:</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" />
           <ContactInput placeholder="Your Name" name="from_name" />
           <ContactInput placeholder="Subject" name="subject" />
           <ContactInputMessage placeholder="Message" rows="4" name="message" />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
+        {isEmailSent && (
+          <div style={{ color: "green", marginTop: "10px" }}>Email sent successfully!</div>
+        )}
         <Snackbar
-          open={open}
+          open={openSnackbar}
           autoHideDuration={6000}
           onClose={() => {
             console.log("Snackbar closed");
-            setOpen(false);
+            setOpenSnackbar(false);
           }}
           message="Email sent successfully!"
           severity="success"
