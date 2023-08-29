@@ -182,7 +182,7 @@ export const projects = [
     title: "Netflix Clone",
     date: "Feb 2023",
     description:
-      "Refactored an old Netflix project with React, fetched movies from a public API (omdbapi.com)",
+      "Refactored an old Netflix project with React, fetched some movies from a public API (omdbapi.com)",
     image: "https://i.ibb.co/pz8myVG/n1.png",
     tags: ["React", "Bootstrap", "API"],
     category: "web app",
