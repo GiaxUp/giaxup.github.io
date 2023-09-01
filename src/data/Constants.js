@@ -130,6 +130,17 @@ export const projects = [
   },
   {
     id: 1,
+    title: "3D Shirt Generator",
+    date: "Sep 2023",
+    description: "Created a 3D t-shirt generator to practice with Tailwind, ThreeJS and Vite!",
+    image: "https://i.ibb.co/0K3Ljgk/tshirt.png",
+    tags: ["Vite", "Tailwind", "OpenAI", "ThreeJS", "Demo Video"],
+    category: "machine learning",
+    github: "https://github.com/GiaxUp/threejs-ai",
+    webapp: "https://www.youtube.com/watch?v=Qrk8w1z6PXw",
+  },
+  {
+    id: 2,
     title: "Threads Clone",
     date: "Jul 2023 - Aug 2023",
     description:
@@ -141,7 +152,7 @@ export const projects = [
     webapp: "https://www.youtube.com/watch?v=ZUF8Ba7Qhys",
   },
   {
-    id: 2,
+    id: 3,
     title: "LinkedIn Clone",
     date: "Mar 2023",
     description:
@@ -178,7 +189,7 @@ export const projects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Netflix Clone",
     date: "Feb 2023",
     description:
@@ -189,7 +200,7 @@ export const projects = [
     github: "https://github.com/GiaxUp/R1L5",
   },
   {
-    id: 4,
+    id: 5,
     title: "Spotify Clone",
     date: "Feb 2023",
     description:
@@ -198,16 +209,5 @@ export const projects = [
     tags: ["React", "Bootstrap", "API"],
     category: "web app",
     github: "https://github.com/GiaxUp/R3L5",
-  },
-  {
-    id: 5,
-    title: "Weather App",
-    date: "Jan 2023",
-    description:
-      "Created a simple application to check the weather around the world thanks to the API by openweathermap!",
-    image: "https://i.ibb.co/C6zGHyd/w2.png",
-    tags: ["React", "Bootstrap", "API"],
-    category: "web app",
-    github: "https://github.com/GiaxUp/R2L5",
   },
 ];
