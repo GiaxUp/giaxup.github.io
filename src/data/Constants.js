@@ -126,7 +126,7 @@ export const projects = [
     tags: ["React", "Next.js", "Prisma", "Tailwind", "postgreSQL", "Axios", "Demo Video"],
     category: "web app",
     github: "https://github.com/GiaxUp/discord-clone",
-    webapp: "https://www.youtube.com/watch?v=rV5nATfn-ko",
+    webapp: "https://www.youtube.com/watch?v=J9lf40vaBO0",
   },
   {
     id: 1,
