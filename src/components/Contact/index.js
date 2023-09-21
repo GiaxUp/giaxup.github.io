@@ -157,11 +157,26 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    const formElements = e.target.elements;
+
+    // Verifica se tutti i campi obbligatori sono stati compilati
+    const isFormValid = Array.from(formElements).every((element) => {
+      return (
+        element.tagName !== "INPUT" || !element.hasAttribute("required") || !!element.value.trim()
+      );
+    });
+
+    if (!isFormValid) {
+      // Se non tutti i campi obbligatori sono stati compilati, mostra un messaggio di errore
+      console.log("Tutti i campi obbligatori devono essere compilati.");
+      return;
+    }
+
     emailjs.sendForm("service_02r8e89", "template_dpk97ar", form.current, "UbY-e4Db0EozWH36x").then(
       (result) => {
         console.log(result);
-        setIsEmailSent(true); // Set the state to indicate successful email send
-        setOpenSnackbar(true); // Open the Snackbar
+        setIsEmailSent(true); // Imposta lo stato per indicare l'invio dell'email riuscito
+        setOpenSnackbar(true); // Apre il Snackbar
         form.current.reset();
       },
       (error) => {
@@ -196,10 +211,10 @@ const Contact = () => {
         </SocialMediaIcons>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>... or send me an email from here:</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" rows="4" name="message" />
+          <ContactInput placeholder="Your Email *" name="from_email" required />
+          <ContactInput placeholder="Your Name *" name="from_name" required />
+          <ContactInput placeholder="Subject *" name="subject" required />
+          <ContactInputMessage placeholder="Message *" rows="4" name="message" required />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
         {isEmailSent && (
