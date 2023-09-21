@@ -118,6 +118,18 @@ export const experiences = [
 export const projects = [
   {
     id: 0,
+    title: "Discord Clone",
+    date: "Sep 2023",
+    description:
+      "Decided to challenge myself with TypeScript and new technologies like Next.js, Prisma, Tailwind and Socket.io!",
+    image: "https://i.ibb.co/88X84RV/main.png",
+    tags: ["React", "Next.js", "Prisma", "Tailwind", "postgreSQL", "Axios", "Demo Video"],
+    category: "web app",
+    github: "https://github.com/GiaxUp/discord-clone",
+    webapp: "https://www.youtube.com/watch?v=rV5nATfn-ko",
+  },
+  {
+    id: 1,
     title: "Cinema Ticket Management",
     date: "May 2023 - Jun 2023",
     description:
@@ -129,7 +141,7 @@ export const projects = [
     webapp: "https://www.youtube.com/watch?v=rV5nATfn-ko",
   },
   {
-    id: 1,
+    id: 2,
     title: "3D Shirt Generator",
     date: "Sep 2023",
     description: "Created a 3D t-shirt generator to practice with Tailwind, ThreeJS and Vite!",
@@ -140,7 +152,7 @@ export const projects = [
     webapp: "https://www.youtube.com/watch?v=Qrk8w1z6PXw",
   },
   {
-    id: 2,
+    id: 3,
     title: "Threads Clone",
     date: "Jul 2023 - Aug 2023",
     description:
@@ -152,7 +164,7 @@ export const projects = [
     webapp: "https://www.youtube.com/watch?v=ZUF8Ba7Qhys",
   },
   {
-    id: 3,
+    id: 4,
     title: "LinkedIn Clone",
     date: "Mar 2023",
     description:
@@ -189,7 +201,7 @@ export const projects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Netflix Clone",
     date: "Feb 2023",
     description:
@@ -200,7 +212,7 @@ export const projects = [
     github: "https://github.com/GiaxUp/R1L5",
   },
   {
-    id: 5,
+    id: 6,
     title: "Spotify Clone",
     date: "Feb 2023",
     description:
