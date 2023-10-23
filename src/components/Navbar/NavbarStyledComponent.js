@@ -1,6 +1,5 @@
 import { Link as LinkR } from "react-router-dom";
 import styled from "styled-components";
-import _default from "../../themes/default";
 
 export const Nav = styled.div`
   background-color: ${({ theme }) => theme.card_light};
@@ -49,8 +48,9 @@ export const NavItems = styled.ul`
   align-items: center;
   justify-content: center;
   gap: 32px;
-  padding: 0 6px;
+  padding: 0;
   list-style: none;
+  white-space: nowrap;
 
   @media screen and (max-width: 768px) {
     display: none;

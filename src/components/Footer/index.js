@@ -72,6 +72,7 @@ function Footer() {
           <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#experience">Experience</NavLink>
           <NavLink href="#projects">Projects</NavLink>
+          <NavLink href="#contacts">Contact Me</NavLink>
         </Nav>
         <Copyright>&copy; 2023 Giacomo Della Peruta. All rights reserved.</Copyright>
       </FooterWrapper>

@@ -47,9 +47,18 @@ export const skills = [
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
       },
       {
+        name: "Next.js",
+        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+      },
+      {
         name: "Typescript",
         image:
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+      },
+      {
+        name: "Tailwind",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
       },
     ],
   },
@@ -121,7 +130,7 @@ export const projects = [
     title: "Discord Clone",
     date: "Sep 2023",
     description:
-      "Decided to challenge myself with TypeScript and new technologies like Next.js, Prisma, Tailwind and Socket.io!",
+      "Step into the world of Discord with a sleek and user-friendly replica! This Discord clone project brings the beloved chat and community platform to life with an intuitive design that's easy for anyone to understand. Connect with friends, share your favorite memes, and create your own virtual hangout space!",
     image: "https://i.ibb.co/88X84RV/main.png",
     tags: ["React", "Next.js", "Prisma", "Tailwind", "postgreSQL", "Axios", "Demo Video"],
     category: "web app",
@@ -130,10 +139,10 @@ export const projects = [
   },
   {
     id: 1,
-    title: "Cinema Ticket Management",
+    title: "Theater Ticket Management",
     date: "May 2023 - Jun 2023",
     description:
-      "For my final Capstone Project at Epicode I developed a full-stack web application that allows registered users to choose their seats and buy/save tickets on their profile.",
+      "Embark on a journey of innovation and creativity with my final Epicode's course big project: a ticket management web app for theaters, allowing registered users to choose their seats and save movie tickets on their profile.",
     image: "https://i.ibb.co/rpNY7Qk/Rocket.png",
     tags: ["React", "Redux", "SpringBoot", "JWT", "postgreSQL", "Axios", "Demo Video"],
     category: "web app",
@@ -144,7 +153,8 @@ export const projects = [
     id: 2,
     title: "3D Shirt Generator",
     date: "Sep 2023",
-    description: "Created a 3D t-shirt generator to practice with Tailwind, ThreeJS and Vite!",
+    description:
+      "Many large corporations already use 3D graphics to showcase their products. Decided to create this ThreeJS 3D product website and infused it with the power of artificial intelligence!",
     image: "https://i.ibb.co/0K3Ljgk/tshirt.png",
     tags: ["Vite", "Tailwind", "OpenAI", "ThreeJS", "Demo Video"],
     category: "machine learning",
@@ -168,7 +178,7 @@ export const projects = [
     title: "LinkedIn Clone",
     date: "Mar 2023",
     description:
-      "During a Team Build Week we had to replicate LinkedIn using React. This is one of my first experiences wotking in a team and we had to cooperate and discuss to code togheter, fun experience!",
+      "During a team Build Week we had to replicate LinkedIn using React. This is one of my first experiences wotking in a team and we had to cooperate and discuss to code togheter.",
     image: "https://i.ibb.co/HpncTV7/1.png",
     tags: ["React", "Redux", "Bootstrap", "API"],
     category: "web app",

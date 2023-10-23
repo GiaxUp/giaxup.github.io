@@ -10,13 +10,11 @@ import {
   ButtonContainer,
   MobileIcon,
   MobileMenu,
-  MobileNavLogo,
   MobileLink,
 } from "./NavbarStyledComponent";
 import { DiCode } from "react-icons/di";
 import { FaBars } from "react-icons/fa";
 import { Bio } from "../../data/constants";
-import { Close, CloseRounded } from "@mui/icons-material";
 import { useTheme } from "styled-components";
 
 const Navbar = () => {
@@ -27,12 +25,14 @@ const Navbar = () => {
       <NavbarContainer>
         <NavLogo to="/">
           <a
+            href="/"
             style={{
               display: "flex",
               alignItems: "center",
               color: "white",
               marginBottom: "20;",
               cursor: "pointer",
+              textDecoration: "none",
             }}>
             <DiCode size="3rem" /> <Span>giacs.dev</Span>
           </a>
@@ -49,6 +49,7 @@ const Navbar = () => {
           <NavLink href="#skills">Skills</NavLink>
           <NavLink href="#experience">Experience</NavLink>
           <NavLink href="#projects">Projects</NavLink>
+          <NavLink href="#contacts">Contact Me</NavLink>
         </NavItems>
         <ButtonContainer>
           <GitHubButton href={Bio.github} target="_blank">
@@ -84,6 +85,13 @@ const Navbar = () => {
                 setIsOpen(!isOpen);
               }}>
               Projects
+            </MobileLink>
+            <MobileLink
+              href="#contacts"
+              onClick={() => {
+                setIsOpen(!isOpen);
+              }}>
+              Contact Me
             </MobileLink>
             <GitHubButton
               style={{

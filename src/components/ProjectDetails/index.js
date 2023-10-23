@@ -69,6 +69,10 @@ const Image = styled.img`
   border-radius: 12px;
   margin-top: 30px;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+
+  @media only screen and (max-width: 600px) {
+    width: 100%;
+  }
 `;
 
 const Label = styled.div`
@@ -182,6 +186,7 @@ const Button = styled.a`
 
 const index = ({ openModal, setOpenModal }) => {
   const project = openModal?.project;
+  const isModalOpen = openModal.state;
   return (
     <Modal open={true} onClose={() => setOpenModal({ state: false, project: null })}>
       <Container>
@@ -195,7 +200,7 @@ const index = ({ openModal, setOpenModal }) => {
             }}
             onClick={() => setOpenModal({ state: false, project: null })}
           />
-          <Image src={project?.image} />
+          <Image src={isModalOpen ? project?.image : project?.previewImage} />
           <Title>{project?.title}</Title>
           <Date>{project.date}</Date>
           <Tags>

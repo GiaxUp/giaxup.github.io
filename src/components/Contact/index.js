@@ -186,9 +186,9 @@ const Contact = () => {
   };
 
   return (
-    <Container>
+    <Container id="contacts">
       <Wrapper>
-        <Title>Contact</Title>
+        <Title>Contacts</Title>
         <Desc>
           Feel free to reach out to me for any questions or opportunities! Here's my socials:
         </Desc>
@@ -218,7 +218,9 @@ const Contact = () => {
           <ContactButton type="submit" value="Send" />
         </ContactForm>
         {isEmailSent && (
-          <div style={{ color: "green", marginTop: "10px" }}>Email sent successfully!</div>
+          <div style={{ color: "green", marginTop: "10px" }}>
+            Email correctly sent! I will reply to you as soon as possible.
+          </div>
         )}
         <Snackbar
           open={openSnackbar}
