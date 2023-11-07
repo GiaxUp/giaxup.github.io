@@ -120,7 +120,7 @@ export const experiences = [
     role: "High School",
     company: "IIS Amedeo Avogadro (SI)",
     date: "Sep 2010 - Jun 2015",
-    desc: "Electronics and electrical engineering. First approach to coding thanks to C++ and Assebly. Graduated with 65/100.",
+    desc: "Electronics and electrical engineering. First approach to coding thanks to C++ and Assebly.",
   },
 ];
 
