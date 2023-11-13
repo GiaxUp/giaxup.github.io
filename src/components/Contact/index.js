@@ -4,7 +4,6 @@ import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { Snackbar } from "@mui/material";
 import FacebookIcon from "@mui/icons-material/Facebook";
-import TwitterIcon from "@mui/icons-material/Twitter";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TelegramIcon from "@mui/icons-material/Telegram";
@@ -176,7 +175,7 @@ const Contact = () => {
       (result) => {
         console.log(result);
         setIsEmailSent(true); // Imposta lo stato per indicare l'invio dell'email riuscito
-        setOpenSnackbar(true); // Apre il Snackbar
+        setOpenSnackbar(true); // Apre lo Snackbar
         form.current.reset();
       },
       (error) => {
@@ -198,9 +197,6 @@ const Contact = () => {
           </SocialMediaIcon>
           <SocialMediaIcon href={Bio.telegram} target="display">
             <TelegramIcon />
-          </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.twitter} target="display">
-            <TwitterIcon />
           </SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display">
             <LinkedInIcon />

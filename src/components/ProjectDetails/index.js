@@ -187,9 +187,17 @@ const Button = styled.a`
 const index = ({ openModal, setOpenModal }) => {
   const project = openModal?.project;
   const isModalOpen = openModal.state;
+
+  const handleClose = (e) => {
+    // Check if the click was outside the modal content
+    if (e.target === e.currentTarget) {
+      setOpenModal({ state: false, project: null });
+    }
+  };
+
   return (
-    <Modal open={true} onClose={() => setOpenModal({ state: false, project: null })}>
-      <Container>
+    <Modal open={isModalOpen} onClose={handleClose}>
+      <Container onClick={handleClose}>
         <Wrapper>
           <CloseRounded
             style={{

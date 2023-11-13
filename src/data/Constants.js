@@ -6,7 +6,6 @@ export const Bio = {
   github: "https://github.com/GiaxUp",
   resume: "https://drive.google.com/file/d/1hkl95wq-rDQKkoVw776IaTAVkfXgKTRM/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/giacomo-della-peruta/",
-  twitter: "https://twitter.com/GiaxUp",
   insta: "https://www.instagram.com/giacs/",
   facebook: "https://www.facebook.com/GiaxUp",
   telegram: "https://t.me/Giacs",
