@@ -68,11 +68,11 @@ function Footer() {
       <FooterWrapper>
         <Logo>Giacomo Della Peruta</Logo>
         <Nav>
-          <NavLink href="#about">About</NavLink>
+          <NavLink href="#about">Su di me</NavLink>
           <NavLink href="#skills">Skills</NavLink>
-          <NavLink href="#experience">Experience</NavLink>
-          <NavLink href="#projects">Projects</NavLink>
-          <NavLink href="#contacts">Contact Me</NavLink>
+          <NavLink href="#experience">Esperienze</NavLink>
+          <NavLink href="#projects">Progetti</NavLink>
+          <NavLink href="#contacts">Contattami</NavLink>
         </Nav>
         <Copyright>&copy; 2023 Giacomo Della Peruta. All rights reserved.</Copyright>
       </FooterWrapper>

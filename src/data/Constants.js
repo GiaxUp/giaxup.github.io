@@ -1,8 +1,8 @@
 export const Bio = {
   name: "Giacomo Della Peruta",
-  roles: ["Full Stack Developer", "UI/UX Designer", "Programmer"],
+  roles: ["full stack developer", "UI/UX designer (circa)", "gamer"],
   description:
-    "I am an enthusiastic and adaptable individual, consistently excited to embrace fresh opportunities. Fueled by a genuine love for acquiring knowledge, I am committed to produce the best outcomes.",
+    "Sono una persona attenta ai dettagli, costantemente alla ricerca di nuove idee. Mi piace mettermi alla prova con progetti e nuovi linguaggi.",
   github: "https://github.com/GiaxUp",
   resume: "https://drive.google.com/file/d/1hkl95wq-rDQKkoVw776IaTAVkfXgKTRM/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/giacomo-della-peruta/",
@@ -46,10 +46,6 @@ export const skills = [
         image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
       },
       {
-        name: "Next.js",
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
-      },
-      {
         name: "Typescript",
         image:
           "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
@@ -91,12 +87,12 @@ export const skills = [
 
 export const experiences = [
   {
-    id: 1,
+    id: 2,
     img: "https://s3-eu-west-1.amazonaws.com/tpd/logos/62a6277627ee655c1226b624/0x0.png",
-    role: "Course Student",
+    role: "Corso Fullstack Web Developer",
     company: "EPICODE Italia",
-    date: "Nov 2022 - Jun 2023",
-    desc: "Fullstack Web Developer course, more than 950 hours distribuited in 6 months.",
+    date: "Novembre 2022 - Giugno 2023",
+    desc: "Più di 950 ore distribuite in 6 mesi di duro lavoro. Ho creato più di 10 web app durante questo corso.",
     skills: [
       "Bootstrap",
       "CSS",
@@ -114,12 +110,21 @@ export const experiences = [
     doc: "https://benchmark.epicode.com/credentials/64872a79caff90a79658630f",
   },
   {
+    id: 1,
+    img: "https://scontent-mxp1-1.xx.fbcdn.net/v/t39.30808-6/302721517_771000574036405_5799253307009603356_n.png?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=1uja8vyzQG8AX8rhzIt&_nc_ht=scontent-mxp1-1.xx&oh=00_AfCOfGuvCmqMOWR410z6Oa7DTdPG2jSEOeTFQSc7UW9w0A&oe=65596387",
+    role: "Customer Care",
+    company: "WeMay SRL",
+    date: "Dicembre 2020 - Giugno 2022",
+    desc: "Assistenza al cliente e in alcuni casi prenotazione di appuntamenti o gestione di aspetti commerciali per diverse commesse, fra queste: ATS Milano, ASL Piemonte, Motorizzazione FVG, vari acquedotti toscani (ADF, Acque Toscane, Publiacqua ecc.), IREN Gas e Luce, ALIA ritiro ingombranti. Ho svolto anche il ruolo di referente tecnico col compito di gestire e sistemare tempestivamente eventuali problematiche di connettività della sede di Arcidosso (GR).",
+  },
+
+  {
     id: 0,
     img: "https://static.vecteezy.com/system/resources/previews/008/040/410/original/school-logo-design-template-free-vector.jpg",
-    role: "High School",
+    role: "Scuola Superiore",
     company: "IIS Amedeo Avogadro (SI)",
-    date: "Sep 2010 - Jun 2015",
-    desc: "Electronics and electrical engineering. First approach to coding thanks to C++ and Assebly.",
+    date: "Settembre 2010 - Giugno 2015",
+    desc: "Ho scelto come indirizzo elettronica ed elettrotecnica perché purtroppo nella mia zona non c'era la possibilità di scegliere informatica, altrimenti avrei scelto quella. Ho un diploma come perito elettronico, ho avuto i primi accenni di coding grazie ad Assembly e C++.",
   },
 ];
 

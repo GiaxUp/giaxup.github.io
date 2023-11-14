@@ -187,9 +187,10 @@ const Contact = () => {
   return (
     <Container id="contacts">
       <Wrapper>
-        <Title>Contacts</Title>
+        <Title>Contattami</Title>
         <Desc>
-          Feel free to reach out to me for any questions or opportunities! Here's my socials:
+          Sentiti libero di contattarmi per qualsiasi domanda o opportunità lavorativa. Ecco i miei
+          social.
         </Desc>
         <SocialMediaIcons>
           <SocialMediaIcon href={Bio.facebook} target="display">
@@ -206,16 +207,16 @@ const Contact = () => {
           </SocialMediaIcon>
         </SocialMediaIcons>
         <ContactForm ref={form} onSubmit={handleSubmit}>
-          <ContactTitle>... or send me an email from here:</ContactTitle>
-          <ContactInput placeholder="Your Email *" name="from_email" required />
-          <ContactInput placeholder="Your Name *" name="from_name" required />
-          <ContactInput placeholder="Subject *" name="subject" required />
-          <ContactInputMessage placeholder="Message *" rows="4" name="message" required />
-          <ContactButton type="submit" value="Send" />
+          <ContactTitle>... oppure mandami pure una mail!</ContactTitle>
+          <ContactInput placeholder="Email *" name="from_email" required />
+          <ContactInput placeholder="Nome *" name="from_name" required />
+          <ContactInput placeholder="Oggetto *" name="subject" required />
+          <ContactInputMessage placeholder="Messaggio *" rows="4" name="message" required />
+          <ContactButton type="submit" value="Invia" />
         </ContactForm>
         {isEmailSent && (
           <div style={{ color: "green", marginTop: "10px" }}>
-            Email correctly sent! I will reply to you as soon as possible.
+            Email inviata correttamente! Ti risponderò prima possibile.
           </div>
         )}
         <Snackbar
