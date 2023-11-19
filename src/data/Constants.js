@@ -111,7 +111,7 @@ export const experiences = [
   },
   {
     id: 1,
-    img: "https://scontent-mxp1-1.xx.fbcdn.net/v/t39.30808-6/302721517_771000574036405_5799253307009603356_n.png?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=1uja8vyzQG8AX8rhzIt&_nc_ht=scontent-mxp1-1.xx&oh=00_AfCOfGuvCmqMOWR410z6Oa7DTdPG2jSEOeTFQSc7UW9w0A&oe=65596387",
+    img: "https://i.ibb.co/7zCvX9k/302721517-771000574036405-5799253307009603356-n.png",
     role: "Customer Care",
     company: "WeMay SRL",
     date: "Dicembre 2020 - Giugno 2022",
