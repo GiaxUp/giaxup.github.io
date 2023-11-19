@@ -226,7 +226,7 @@ const index = ({ openModal, setOpenModal }) => {
           <Desc>{project?.description}</Desc>
           {project.member && (
             <>
-              <Label>Members</Label>
+              <Label>Membri</Label>
               <Members>
                 {project?.member.map((member) => (
                   <Member>
@@ -251,12 +251,12 @@ const index = ({ openModal, setOpenModal }) => {
           )}
           <ButtonGroup>
             <Button dull href={project?.github} target="new">
-              View Code
+              Visualizza Codice
             </Button>
             <Button href={project?.webapp} target="_blank">
               {project?.webapp?.startsWith("https://www.youtube.com/")
-                ? "Play Demo Video"
-                : "View Live App"}
+                ? "Riproduci Video Presentazione"
+                : "Visualizza Live App"}
             </Button>
           </ButtonGroup>
         </Wrapper>

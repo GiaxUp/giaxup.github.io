@@ -6,23 +6,32 @@ const Document = styled.a`
   -moz-appearance: button;
   appearance: button;
   text-decoration: none;
-  width: 80%;
-  max-width: 250px;
+  width: 60%;
+  max-width: 150px;
   text-align: center;
-  padding: 12px 0;
+  margin: 0 auto;
+  padding: 10px 0;
   color: ${({ theme }) => theme.white};
-  border-radius: 20px;
+  border-radius: 15px;
   cursor: pointer;
-  font-size: 18px;
+  font-size: 13px;
   font-weight: 600;
-  background: linear-gradient(225deg, hsla(0, 0%, 20%, 1) 0%, hsla(0, 0%, 30%, 1) 100%);
+  background: hsla(271, 100%, 50%, 1);
+    background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+    background: -moz-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+    background: -webkit-linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+    box-shadow:  20px 20px 60px #1F2634,
+  transition: box-shadow 0.3s, filter 0.3s;
+
   &:hover {
-    box-shadow: 20px 20px 60px #1f2634;
-    filter: brightness(1);
+    box-shadow: 10px 10px 30px #1f2634;
+    filter: brightness(1.2);
   }
 
   @media (max-width: 640px) {
-    padding: 10px 0;
+    width: 80%;
+    max-width: 200px; 
+    padding: 8px 0;
     font-size: 16px;
   }
 `;
@@ -178,7 +187,7 @@ const ExperienceCard = ({ experience }) => {
       </Description>
       {experience.doc && (
         <Document href={experience.doc} target="new">
-          Released Certificate
+          Certificato Rilasciato
         </Document>
       )}
     </Card>

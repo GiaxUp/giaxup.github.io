@@ -20,7 +20,8 @@ const Projects = ({ openModal, setOpenModal }) => {
       <Wrapper>
         <Title>Progetti</Title>
         <Desc>
-          Ho lavorato a diverse web app nell'ultimo periodo, eccone alcune delle mie preferite.
+          Ho lavorato a diverse web app nell'ultimo periodo, ecco le mie preferite. Alcune hanno
+          anche un video demo di presentazione, dagli un'occhiata!
         </Desc>
         <ToggleButtonGroup>
           {toggle === "all" ? (

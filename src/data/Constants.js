@@ -2,7 +2,7 @@ export const Bio = {
   name: "Giacomo Della Peruta",
   roles: ["full stack developer", "UI/UX designer (circa)", "gamer"],
   description:
-    "Sono una persona attenta ai dettagli, costantemente alla ricerca di nuove idee. Mi piace mettermi alla prova con progetti e nuovi linguaggi.",
+    "Sono una persona attenta ai dettagli, costantemente alla ricerca di nuove idee. Mi piace mettermi alla prova con dei progetti innovativi e con i framework del momento.",
   github: "https://github.com/GiaxUp",
   resume: "https://drive.google.com/file/d/1hkl95wq-rDQKkoVw776IaTAVkfXgKTRM/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/giacomo-della-peruta/",
@@ -132,7 +132,7 @@ export const projects = [
   {
     id: 0,
     title: "Discord Clone",
-    date: "Sep 2023",
+    date: "Settembre 2023",
     description:
       "Step into the world of Discord with a sleek and user-friendly replica! This Discord clone project brings the beloved chat and community platform to life with an intuitive design that's easy for anyone to understand. Connect with friends, share your favorite memes, and create your own virtual hangout space!",
     image: "https://i.ibb.co/LxJ5Ffg/home.png",
@@ -144,7 +144,7 @@ export const projects = [
   {
     id: 1,
     title: "Theater Ticket Management",
-    date: "May 2023 - Jun 2023",
+    date: "Maggio 2023 - Giugno 2023",
     description:
       "Embark on a journey of innovation and creativity with my final Epicode's course big project: a ticket management web app for theaters, allowing registered users to choose their seats and save movie tickets on their profile.",
     image: "https://i.ibb.co/CbN5vWV/home.png",
@@ -156,7 +156,7 @@ export const projects = [
   {
     id: 2,
     title: "3D Shirt Generator",
-    date: "Sep 2023",
+    date: "Settembre 2023",
     description:
       "Many large corporations already use 3D graphics to showcase their products. Decided to create this ThreeJS 3D product website and infused it with the power of artificial intelligence!",
     image: "https://i.ibb.co/tB5bf31/tshirt.png",
@@ -168,7 +168,7 @@ export const projects = [
   {
     id: 3,
     title: "Threads Clone",
-    date: "Jul 2023 - Aug 2023",
+    date: "Luglio 2023 - Agosto 2023",
     description:
       "Decided to join the hype for the new Meta social network by creating a look-a-like clone of it!",
     image: "https://i.ibb.co/Qr5kv3B/threads.png",
@@ -180,7 +180,7 @@ export const projects = [
   {
     id: 4,
     title: "LinkedIn Clone",
-    date: "Mar 2023",
+    date: "Marzo 2023",
     description:
       "During a team Build Week we had to replicate LinkedIn using React. This is one of my first experiences wotking in a team and we had to cooperate and discuss to code togheter.",
     image: "https://i.ibb.co/HpncTV7/1.png",
@@ -217,7 +217,7 @@ export const projects = [
   {
     id: 5,
     title: "Netflix Clone",
-    date: "Feb 2023",
+    date: "Febbraio 2023",
     description:
       "Refactored an old Netflix project with React, fetched some movies from a public API (omdbapi.com)",
     image: "https://i.ibb.co/pz8myVG/n1.png",
@@ -228,7 +228,7 @@ export const projects = [
   {
     id: 6,
     title: "Spotify Clone",
-    date: "Feb 2023",
+    date: "Febbraio 2023",
     description:
       "Refactored an old Spotify project with React and Redux. To make the difference I added a working music player too that plays the first 30s of the selected song!",
     image: "https://i.ibb.co/dbThnBZ/home.png",
@@ -239,7 +239,7 @@ export const projects = [
   {
     id: 6,
     title: "Weather App",
-    date: "Oct 2023",
+    date: "Ottobre 2023",
     description:
       "I've always been curious about new challenges. The Angular framework has been on my radar for a while, here's my first project with this framework!",
     image: "https://i.ibb.co/SvG8KJy/weather.png",
@@ -250,7 +250,7 @@ export const projects = [
   {
     id: 7,
     title: "Travel App",
-    date: "Oct 2023",
+    date: "Ottobre 2023",
     description:
       "Need help with your journeys? Seek the satisfaction of seeing the incorruptible beauty of nature with this app!",
     image: "https://i.ibb.co/PtbrSWn/travel.png",
