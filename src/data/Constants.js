@@ -252,7 +252,7 @@ export const projects = [
     title: "Travel App",
     date: "Ottobre 2023",
     description:
-      "Need help with your journeys? Seek the satisfaction of seeing the incorruptible beauty of nature with this app!",
+      "Need help with your journeys? Seek the satisfaction of seeing the incorruptible beauty of nature with this app.",
     image: "https://i.ibb.co/PtbrSWn/travel.png",
     tags: ["React", "Next.js", "Tailwind"],
     category: "web app",
