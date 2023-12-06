@@ -131,15 +131,14 @@ export const experiences = [
 export const projects = [
   {
     id: 0,
-    title: "Discord Clone",
-    date: "Settembre 2023",
+    title: "Kanji Guesser",
+    date: "Dicembre 2023",
     description:
-      "Step into the world of Discord with a sleek and user-friendly replica! This Discord clone project brings the beloved chat and community platform to life with an intuitive design that's easy for anyone to understand. Connect with friends, share your favorite memes, and create your own virtual hangout space!",
-    image: "https://i.ibb.co/LxJ5Ffg/home.png",
-    tags: ["React", "Next.js", "Prisma", "Tailwind", "postgreSQL", "Axios", "Demo Video"],
+      "Dive into the rich history of kanji and gain experience with the intricate differences between Kun'yomi and On'yomi readings. This web app provides a unique feature to save and review cards for later reinforcement.",
+    image: "https://i.ibb.co/3hWKLGN/kanji.png",
+    tags: ["React", "Typescript", "Axios", "Bootstrap", "JSON Server", "Demo Video"],
     category: "web app",
-    github: "https://github.com/GiaxUp/discord-clone",
-    webapp: "https://www.youtube.com/watch?v=J9lf40vaBO0",
+    github: "https://github.com/GiaxUp/kanji-guesser",
   },
   {
     id: 1,
@@ -155,6 +154,18 @@ export const projects = [
   },
   {
     id: 2,
+    title: "Discord Clone",
+    date: "Settembre 2023",
+    description:
+      "Step into the world of Discord with a sleek and user-friendly replica! This Discord clone project brings the beloved chat and community platform to life with an intuitive design that's easy for anyone to understand. Connect with friends, share your favorite memes, and create your own virtual hangout space!",
+    image: "https://i.ibb.co/LxJ5Ffg/home.png",
+    tags: ["React", "Next.js", "Prisma", "Tailwind", "postgreSQL", "Axios", "Demo Video"],
+    category: "web app",
+    github: "https://github.com/GiaxUp/discord-clone",
+    webapp: "https://www.youtube.com/watch?v=J9lf40vaBO0",
+  },
+  {
+    id: 3,
     title: "3D Shirt Generator",
     date: "Settembre 2023",
     description:
@@ -166,7 +177,7 @@ export const projects = [
     webapp: "https://www.youtube.com/watch?v=Qrk8w1z6PXw",
   },
   {
-    id: 3,
+    id: 4,
     title: "Threads Clone",
     date: "Luglio 2023 - Agosto 2023",
     description:
@@ -178,7 +189,7 @@ export const projects = [
     webapp: "https://www.youtube.com/watch?v=ZUF8Ba7Qhys",
   },
   {
-    id: 4,
+    id: 5,
     title: "LinkedIn Clone",
     date: "Marzo 2023",
     description:
@@ -215,7 +226,7 @@ export const projects = [
     ],
   },
   {
-    id: 5,
+    id: 6,
     title: "Netflix Clone",
     date: "Febbraio 2023",
     description:
@@ -226,7 +237,7 @@ export const projects = [
     github: "https://github.com/GiaxUp/R1L5",
   },
   {
-    id: 6,
+    id: 7,
     title: "Spotify Clone",
     date: "Febbraio 2023",
     description:
@@ -237,7 +248,7 @@ export const projects = [
     github: "https://github.com/GiaxUp/R3L5",
   },
   {
-    id: 6,
+    id: 8,
     title: "Weather App",
     date: "Ottobre 2023",
     description:
@@ -248,7 +259,7 @@ export const projects = [
     github: "https://github.com/GiaxUp/weather-app",
   },
   {
-    id: 7,
+    id: 9,
     title: "Travel App",
     date: "Ottobre 2023",
     description:
