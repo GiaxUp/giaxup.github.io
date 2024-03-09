@@ -209,7 +209,7 @@ const Contact = () => {
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>... oppure mandami pure una mail!</ContactTitle>
           <ContactInput placeholder="Email *" name="from_email" required />
-          <ContactInput placeholder="Nome *" name="from_name" required />
+          <ContactInput placeholder="Nome e Cognome*" name="from_name" required />
           <ContactInput placeholder="Oggetto *" name="subject" required />
           <ContactInputMessage placeholder="Messaggio *" rows="4" name="message" required />
           <ContactButton type="submit" value="Invia" />

@@ -26,11 +26,11 @@ const Projects = ({ openModal, setOpenModal }) => {
         <ToggleButtonGroup>
           {toggle === "all" ? (
             <ToggleButton active value="all" onClick={() => setToggle("all")}>
-              BEST PROJECTS
+              MIGLIORI PROGETTI
             </ToggleButton>
           ) : (
             <ToggleButton value="all" onClick={() => setToggle("all")}>
-              BEST PROJECTS
+              MIGLIORI PROGETTI
             </ToggleButton>
           )}
           <Divider />
@@ -49,11 +49,11 @@ const Projects = ({ openModal, setOpenModal }) => {
               active
               value="machine learning"
               onClick={() => setToggle("machine learning")}>
-              AI
+              MACHINE LEARNING
             </ToggleButton>
           ) : (
             <ToggleButton value="machine learning" onClick={() => setToggle("machine learning")}>
-              AI
+              MACHINE LEARNING
             </ToggleButton>
           )}
         </ToggleButtonGroup>

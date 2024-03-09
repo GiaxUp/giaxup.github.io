@@ -1,10 +1,10 @@
 export const Bio = {
   name: "Giacomo Della Peruta",
-  roles: ["full stack developer", "UI/UX designer (circa)", "gamer"],
+  roles: ["frontend developer", "UI/UX designer", "gamer"],
   description:
     "Sono una persona attenta ai dettagli, costantemente alla ricerca di nuove idee. Mi piace mettermi alla prova con dei progetti innovativi e con i framework del momento.",
   github: "https://github.com/GiaxUp",
-  resume: "https://drive.google.com/file/d/1hkl95wq-rDQKkoVw776IaTAVkfXgKTRM/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1BBc3gA2kET4dbxoeZr3ouOttwedakjfO/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/giacomo-della-peruta/",
   insta: "https://www.instagram.com/giacs/",
   facebook: "https://www.facebook.com/GiaxUp",
@@ -53,7 +53,7 @@ export const skills = [
       {
         name: "Tailwind",
         image:
-          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
       },
     ],
   },
@@ -92,7 +92,7 @@ export const experiences = [
     role: "Corso Fullstack Web Developer",
     company: "EPICODE Italia",
     date: "Novembre 2022 - Giugno 2023",
-    desc: "Più di 950 ore distribuite in 6 mesi di duro lavoro. Ho creato più di 10 web app durante questo corso.",
+    desc: "Più di 950 ore distribuite in 6 mesi di duro lavoro. Ho creato più di 15 web app durante questo corso.",
     skills: [
       "Bootstrap",
       "CSS",
@@ -134,7 +134,7 @@ export const projects = [
     title: "Kanji Guesser",
     date: "Dicembre 2023",
     description:
-      "Dive into the rich history of kanji and gain experience with the intricate differences between Kun'yomi and On'yomi readings. This web app provides a unique feature to save and review cards for later reinforcement.",
+      "Scopri la ricca storia dei kanji e acquisisci esperienza con le intricate differenze tra le letture Kun'yomi e On'yomi.",
     image: "https://i.ibb.co/3hWKLGN/kanji.png",
     tags: ["React", "Typescript", "Axios", "Bootstrap", "JSON Server", "Demo Video"],
     category: "web app",
@@ -145,7 +145,7 @@ export const projects = [
     title: "Theater Ticket Management",
     date: "Maggio 2023 - Giugno 2023",
     description:
-      "Embark on a journey of innovation and creativity with my final Epicode's course big project: a ticket management web app for theaters, allowing registered users to choose their seats and save movie tickets on their profile.",
+      "Il capstone project finale del corso con Epicode: una web app per la gestione dei biglietti per i teatri che permette agli utenti registrati di scegliere il proprio posto e salvare i biglietti del cinema sul proprio profilo.",
     image: "https://i.ibb.co/CbN5vWV/home.png",
     tags: ["React", "Redux", "SpringBoot", "JWT", "postgreSQL", "Axios", "Demo Video"],
     category: "web app",
@@ -157,7 +157,7 @@ export const projects = [
     title: "Discord Clone",
     date: "Settembre 2023",
     description:
-      "Step into the world of Discord with a sleek and user-friendly replica! This Discord clone project brings the beloved chat and community platform to life with an intuitive design that's easy for anyone to understand. Connect with friends, share your favorite memes, and create your own virtual hangout space!",
+      "Connettiti con gli amici, condividi i tuoi meme preferiti e crea il tuo spazio di ritrovo virtuale con questa app!",
     image: "https://i.ibb.co/LxJ5Ffg/home.png",
     tags: ["React", "Next.js", "Prisma", "Tailwind", "postgreSQL", "Axios", "Demo Video"],
     category: "web app",
@@ -169,7 +169,7 @@ export const projects = [
     title: "3D Shirt Generator",
     date: "Settembre 2023",
     description:
-      "Many large corporations already use 3D graphics to showcase their products. Decided to create this ThreeJS 3D product website and infused it with the power of artificial intelligence!",
+      "Molte grandi aziende utilizzano già la grafica 3D per mostrare i propri prodotti. Ho deciso di creare questo sito Web con ThreeJS 3D e di infonderlo con il potere dell'intelligenza artificiale!",
     image: "https://i.ibb.co/tB5bf31/tshirt.png",
     tags: ["Vite", "Tailwind", "OpenAI", "ThreeJS", "Demo Video"],
     category: "machine learning",
@@ -181,7 +181,7 @@ export const projects = [
     title: "Threads Clone",
     date: "Luglio 2023 - Agosto 2023",
     description:
-      "Decided to join the hype for the new Meta social network by creating a look-a-like clone of it!",
+      "Ho deciso di unirmi all'hype per il nuovo social network di Meta creando un clone!",
     image: "https://i.ibb.co/Qr5kv3B/threads.png",
     tags: ["React", "Redux", "JSON Server", "Moments", "Demo Video"],
     category: "web app",
@@ -193,7 +193,7 @@ export const projects = [
     title: "LinkedIn Clone",
     date: "Marzo 2023",
     description:
-      "During a team Build Week we had to replicate LinkedIn using React. This is one of my first experiences wotking in a team and we had to cooperate and discuss to code togheter.",
+      "Io e i miei compagni di corso abbiamo lavorato su un clone di LinkedIn, uno dei primi grandi progetti fatto in gruppo.",
     image: "https://i.ibb.co/HpncTV7/1.png",
     tags: ["React", "Redux", "Bootstrap", "API"],
     category: "web app",
@@ -230,7 +230,7 @@ export const projects = [
     title: "Netflix Clone",
     date: "Febbraio 2023",
     description:
-      "Refactored an old Netflix project with React, fetched some movies from a public API (omdbapi.com)",
+      "Remake di un vecchio progetto Netflix con React, recuperando alcuni film da un'API pubblica (omdbapi.com)",
     image: "https://i.ibb.co/pz8myVG/n1.png",
     tags: ["React", "Bootstrap", "API"],
     category: "web app",
@@ -241,7 +241,7 @@ export const projects = [
     title: "Spotify Clone",
     date: "Febbraio 2023",
     description:
-      "Refactored an old Spotify project with React and Redux. To make the difference I added a working music player too that plays the first 30s of the selected song!",
+      "Remake di un vecchio clone di Spotify. Per fare la differenza ho aggiunto anche un lettore musicale funzionante che riproduce i primi 30s della canzone selezionata!",
     image: "https://i.ibb.co/dbThnBZ/home.png",
     tags: ["React", "Bootstrap", "API"],
     category: "web app",
@@ -252,7 +252,7 @@ export const projects = [
     title: "Weather App",
     date: "Ottobre 2023",
     description:
-      "I've always been curious about new challenges. The Angular framework has been on my radar for a while, here's my first project with this framework!",
+      "Sono sempre alla ricerca di nuove sfide. Il framework Angular è nel mio radar da un po', ecco il mio primo progetto con questo framework!",
     image: "https://i.ibb.co/SvG8KJy/weather.png",
     tags: ["Angular", "CSS", "API"],
     category: "web app",
@@ -263,7 +263,7 @@ export const projects = [
     title: "Travel App",
     date: "Ottobre 2023",
     description:
-      "Need help with your journeys? Seek the satisfaction of seeing the incorruptible beauty of nature with this app.",
+      "Hai bisogno di aiuto per i tuoi viaggi? Osserva l'inconfondibile bellezza della natura con questa app!",
     image: "https://i.ibb.co/PtbrSWn/travel.png",
     tags: ["React", "Next.js", "Tailwind"],
     category: "web app",

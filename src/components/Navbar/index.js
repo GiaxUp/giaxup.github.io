@@ -34,7 +34,7 @@ const Navbar = () => {
               cursor: "pointer",
               textDecoration: "none",
             }}>
-            <DiCode size="3rem" /> <Span>giacs.dev</Span>
+            <DiCode size="3rem" /> <Span>giaxup.dev</Span>
           </a>
         </NavLogo>
         <MobileIcon>

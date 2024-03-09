@@ -74,7 +74,7 @@ function Footer() {
           <NavLink href="#projects">Progetti</NavLink>
           <NavLink href="#contacts">Contattami</NavLink>
         </Nav>
-        <Copyright>&copy; 2023 Giacomo Della Peruta. All rights reserved.</Copyright>
+        <Copyright>&copy; 2024 Giacomo Della Peruta. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
