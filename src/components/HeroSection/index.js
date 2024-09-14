@@ -15,7 +15,7 @@ import {
 } from "./HeroStyle";
 import HeroImg from "../../images/HeroImage.jpg";
 import Typewriter from "typewriter-effect";
-import { Bio } from "../../data/constants";
+import { Bio } from "../../data/Constants";
 
 const HeroSection = () => {
   return (

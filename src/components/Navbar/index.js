@@ -14,7 +14,7 @@ import {
 } from "./NavbarStyledComponent";
 import { DiCode } from "react-icons/di";
 import { FaBars } from "react-icons/fa";
-import { Bio } from "../../data/constants";
+import { Bio } from "../../data/Constants";
 import { useTheme } from "styled-components";
 
 const Navbar = () => {

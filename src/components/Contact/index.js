@@ -7,7 +7,7 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TelegramIcon from "@mui/icons-material/Telegram";
-import { Bio } from "../../data/constants";
+import { Bio } from "../../data/Constants";
 
 const Container = styled.div`
   display: flex;
